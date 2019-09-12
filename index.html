@@ -16,7 +16,7 @@
         <div>
           <a
             href="http://www.innopolis.com/"
-            target="_self"
+            target="_blank"
             title="Перейти на Иннополис.ру"
             ><img
               src="images/logo.png"
@@ -123,7 +123,7 @@
       <h2>
         Выберите фильм
       </h2>
-      <table border="10px" cellspacing="5px" cellpadding="5px" >
+      <table border="10px" cellspacing="5px" cellpadding="5px">
         <thead>
           <tr>
             <th>Начало сеанса</th>
@@ -191,7 +191,7 @@
               >
             </td>
             <td>
-              фантастика, боевик, комедия 
+              фантастика, боевик, комедия
             </td>
           </tr>
         </tbody>
@@ -303,7 +303,9 @@
     </section>
     <footer>
       <div>
-        <div id="contacts"><h3>Мы на карте</h3></div>
+        <div id="contacts">
+          <h3>Мы на карте</h3>
+        </div>
         <map
           ><iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35925.36700140586!2d48.69196624383353!3d55.752674971547265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415bfe66bb4bc99d%3A0xf23e00d5cde79014!2z0JjQvdC90L7Qv9C-0LvQuNGBLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1568121525697!5m2!1sru!2sru"
@@ -365,7 +367,7 @@
             required
             aria-required="true"
           >
-            <option value="" hidden></option>
+            <option selected disabled value="">Выберите место</option>
             <option value="1">место 1</option>
             <option value="2">место 2</option>
             <option value="3">место 3</option>
@@ -401,7 +403,14 @@
             <label for="row_4">
               Ряд 4
             </label>
-            <input id="row_4" type="radio" name="row" value="4" />
+            <input
+              id="row_4"
+              type="radio"
+              name="row"
+              value="4"
+              required
+              aria-required="true"
+            />
           </div>
         </div>
         <div>
@@ -429,10 +438,10 @@
           <label>Промо-купон</label>
           <input type="file" name="promo" />
         </div>
-        <input aria-label="Отправить форму" type="submit" value="Заказать"/>
-<button type="submit">
-ЗАКАЗАТЬ
-</button>
+        <input aria-label="Отправить форму" type="submit" value="Заказать" />
+        <button type="submit">
+          ЗАКАЗАТЬ
+        </button>
       </form>
     </footer>
   </body>
