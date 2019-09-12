@@ -25,18 +25,38 @@
           /></a>
         </div>
         <nav>
-          <a href="#" style="color: white" title="Перейти к заказу"
-            >ЗАКАЗАТЬ БИЛЕТ</a
-          >
-          <a href="#" style="color: white" title="Перейти к списку преимуществ"
-            >ПРЕИМУЩЕСТВА</a
-          >
-          <a href="#" style="color: white" title="Перейти к списку фильмов"
-            >ФИЛЬМЫ</a
-          >
-          <a href="#" style="color: white" title="Перейти к контактам"
-            >КОНТАКТЫ</a
-          >
+          <ul>
+            <li>
+              <a href="#bue" style="color: white" title="Перейти к заказу"
+                >ЗАБРОНИРОВАТЬ МЕСТО</a
+              >
+            </li>
+            <li>
+              <a
+                href="#advantages"
+                style="color: white"
+                title="Перейти к списку преимуществ"
+                >ПРЕИМУЩЕСТВА</a
+              >
+            </li>
+            <li>
+              <a
+                href="#movies"
+                style="color: white"
+                title="Перейти к списку фильмов"
+                >ФИЛЬМЫ</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#contacts"
+                style="color: white"
+                title="Перейти к контактам"
+                >КОНТАКТЫ</a
+              >
+            </li>
+          </ul>
         </nav>
 
         <p style="color: white">
@@ -65,10 +85,11 @@
         saepe voluptatibus.
       </p>
     </div>
-    <div>
-      <h2>Почему мы?</h2>
-    </div>
-    <section>
+    <section id="advantages">
+      <div>
+        <h2>Почему мы?</h2>
+      </div>
+
       <div>
         <img src="images/b2_icon_1.jpg" alt="Большие экраны" />
         <h3>Большие экраны</h3>
@@ -102,7 +123,7 @@
       <h2>
         Выберите фильм
       </h2>
-      <table border="1" cellspasing="0" cellpadding="0">
+      <table border="10px" cellspacing="5px" cellpadding="5px" >
         <thead>
           <tr>
             <th>Начало сеанса</th>
@@ -170,7 +191,7 @@
               >
             </td>
             <td>
-              фантастика, боевик, комедия
+              фантастика, боевик, комедия 
             </td>
           </tr>
         </tbody>
@@ -190,26 +211,31 @@
       <div style="background: url(images/b4_bg.jpg); height: 550px;">
         <img src="images/b4_img.jpg" alt="Подарок каждому" />
         <h2 style="color: white">Подарок каждому!</h2>
-        <p style="color: white">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
-          aspernatur, cum, cupiditate excepturi expedita libero mollitia
-          nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint,
-          tenetur unde velit veniam! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Ab aperiam aspernatur, cum, cupiditate excepturi
-          expedita libero mollitia nesciunt nihil nobis obcaecati quasi ratione
-          reprehenderit sequi sint, tenetur unde velit veniam!
+        <ol style="color: white" type="I" reversed start="4">
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
+            aspernatur, cum, cupiditate excepturi expedita libero mollitia
+            nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam! Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
+            excepturi expedita libero mollitia nesciunt nihil nobis obcaecati
+            quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!
+          </li>
           <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
-          aspernatur, cum, cupiditate excepturi expedita libero mollitia
-          nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint,
-          tenetur unde velit veniam!
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
+            aspernatur, cum, cupiditate excepturi expedita libero mollitia
+            nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam!
+          </li>
           <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
-          aspernatur, cum, cupiditate excepturi expedita libero mollitia
-          nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint,
-          tenetur unde velit veniam!
-        </p>
-
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
+            aspernatur, cum, cupiditate excepturi expedita libero mollitia
+            nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam!
+          </li>
+        </ol>
         <div>
           <button style="background-color: greenyellow;">
             Получить подарок
@@ -217,7 +243,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="movies">
       <h2>Фильмы</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci
@@ -253,12 +279,12 @@
           <br />
           <div><img src="images/mov3.jpg" alt="Люди в чёрном" /></div>
           <div>
-            Люди в чёрном:
+            Люди в чёрном: Интернэшнл
           </div>
           <hr />
           <div>
-            Интернэшнл Lorem ipsum dolor sit amet, consectetur Человек-паук
-            Lorem ipsum dolor sit amet, consectetur
+            Lorem ipsum dolor sit amet, consectetur Человек-паук Lorem ipsum
+            dolor sit amet, consectetur
           </div>
 
           <a href="#" title="Твиттер">twitter</a>
@@ -277,7 +303,7 @@
     </section>
     <footer>
       <div>
-        <div><h3>Мы на карте</h3></div>
+        <div id="contacts"><h3>Мы на карте</h3></div>
         <map
           ><iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35925.36700140586!2d48.69196624383353!3d55.752674971547265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415bfe66bb4bc99d%3A0xf23e00d5cde79014!2z0JjQvdC90L7Qv9C-0LvQuNGBLCDQoNC10YHQvy4g0KLQsNGC0LDRgNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1568121525697!5m2!1sru!2sru"
@@ -296,19 +322,27 @@
         <a href="http://instagram.com" title="Инстаграм" target="_self"
           >instagram</a
         >
-        <a href="http://google.com" title="Гугл" target="_self"
-          >google</a
-        >
+        <a href="http://google.com" title="Гугл" target="_self">google</a>
       </div>
 
-      <form action="/order.php">
+      <form action="/order.php" id="bue">
         <div>
-          <div><h3>Забронировать место</h3></div>
+          <div>
+            <h3>Забронировать место</h3>
+          </div>
           <label for="cl_name">Укажите ваше имя</label>
           <input
             id="cl_name"
             name="client_name"
             placeholder="Введите ваше имя"
+            required
+            aria-required="true"
+          />
+          <label for="cl_surname">Укажите вашу фамилию</label>
+          <input
+            id="cl_surname"
+            name="client_surname"
+            placeholder="Введите вашу фамилию"
             required
             aria-required="true"
           />
@@ -325,8 +359,14 @@
         </div>
         <div>
           <label for="place">Укажите номер места</label>
-          <select name="place" aria-label="Выбрать место">
-            <option value="1">Место 1</option>
+          <select
+            name="place"
+            aria-label="Выбрать место"
+            required
+            aria-required="true"
+          >
+            <option value="" hidden></option>
+            <option value="1">место 1</option>
             <option value="2">место 2</option>
             <option value="3">место 3</option>
             <option value="4">место 4</option>
@@ -336,32 +376,33 @@
             <option value="8">место 8</option>
             <option value="9">место 9</option>
             <option value="10">место 10</option>
-            <option value="11" selected>место 11</option>
           </select>
         </div>
         <div>
-          <label for="row_1">
-            Ряд 1
-          </label>
-          <input id="row_1" type="radio" name="row" value="1" />
-        </div>
-        <div>
-          <label for="row_2">
-            Ряд 2
-          </label>
-          <input id="row_2" type="radio" name="row" value="2" />
-        </div>
-        <div>
-          <label for="row_3">
-            Ряд 3
-          </label>
-          <input id="row_3" type="radio" name="row" value="3" />
-        </div>
-        <div>
-          <label for="row_4">
-            Ряд 4
-          </label>
-          <input id="row_4" type="radio" name="row" value="4" />
+          <div>
+            <label for="row_1">
+              Ряд 1
+            </label>
+            <input id="row_1" type="radio" name="row" value="1" />
+          </div>
+          <div>
+            <label for="row_2">
+              Ряд 2
+            </label>
+            <input id="row_2" type="radio" name="row" value="2" />
+          </div>
+          <div>
+            <label for="row_3">
+              Ряд 3
+            </label>
+            <input id="row_3" type="radio" name="row" value="3" />
+          </div>
+          <div>
+            <label for="row_4">
+              Ряд 4
+            </label>
+            <input id="row_4" type="radio" name="row" value="4" />
+          </div>
         </div>
         <div>
           <textarea
@@ -388,7 +429,10 @@
           <label>Промо-купон</label>
           <input type="file" name="promo" />
         </div>
-        <input aria-label="Отправить форму" type="submit" />
+        <input aria-label="Отправить форму" type="submit" value="Заказать"/>
+<button type="submit">
+ЗАКАЗАТЬ
+</button>
       </form>
     </footer>
   </body>
