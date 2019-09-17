@@ -8,6 +8,7 @@
     <title>Кинотеатр Иннополис</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="build/style.css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
   </head>
 
   <body>
@@ -120,92 +121,145 @@
       </div>
     </section>
     <section>
-      <h2>
-        Выберите фильм
-      </h2>
-      <table border="10px" cellspacing="5px" cellpadding="5px">
-        <thead>
-          <tr>
-            <th>Начало сеанса</th>
-            <th>Название фильма</th>
-            <th>Жанр</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              10:00
-            </td>
-            <td>
-              <a
-                href="https://www.kinopoisk.ru/film/838/"
-                target="_blank"
-                title="Перейти на Кинопоиск.ру"
-                >Человек-паук
-              </a>
-            </td>
-            <td>
-              фантастика, боевик, приключения
-            </td>
-          </tr>
-          <tr>
-            <td>
-              12:00
-            </td>
-            <td>
-              <a
-                href="https://www.kinopoisk.ru/film/1122114/"
-                target="_blank"
-                title="Перейти на Кинопоиск.ру"
-                >Собачья жизнь 2
-              </a>
-            </td>
-            <td>
-              фэнтези, драма, комедия
-            </td>
-          </tr>
-          <tr>
-            <td>
-              14:00
-            </td>
-            <td>
-              <a
-                href="https://www.kinopoisk.ru/film/846824/"
-                target="_blank"
-                title="Перейти на Кинопоиск.ру"
-                >История игрушек 4
-              </a>
-            </td>
-            <td>мультфильм, фэнтези, комедия</td>
-          </tr>
-          <tr>
-            <td>
-              16:00
-            </td>
-            <td>
-              <a
-                href="https://www.kinopoisk.ru/film/693730/"
-                target="_blank"
-                title="Перейти на Кинопоиск.ру"
-                >Люди в чёрном: Интернэшнл</a
-              >
-            </td>
-            <td>
-              фантастика, боевик, комедия
-            </td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-              eum facere obcaecati quam rem repellendus veritatis. Aliquam
-              beatae, delectus dignissimos enim exercitationem mollitia nisi
-              pariatur quaerat quam, qui quibusdam sunt!
-            </td>
-          </tr>
-        </tfoot>
-      </table>
+      <div class="movie_list">
+        <h2 class="movie_list__header">
+          Выберите фильм
+        </h2>
+        <div class="container">
+          <table class="movie_list__table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Stuff thatwill happen</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="_1">
+                <td>
+                  10:00
+                </td>
+                <td>
+                  <a
+                    href="https://www.kinopoisk.ru/film/838/"
+                    target="_blank"
+                    title="Перейти на Кинопоиск.ру"
+                    >Человек-паук
+                  </a>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="1.164cm"
+                    height="1.164cm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="rgb(255, 255, 255)"
+                      d="M16.505,32.994 C7.393,32.994 0.005,25.606 0.005,16.494 C0.005,7.381 7.393,-0.006 16.505,-0.006 C25.618,-0.006 33.005,7.381 33.005,16.494 C33.005,25.606 25.618,32.994 16.505,32.994 ZM24.214,14.591 L18.356,14.631 L18.356,8.796 L13.958,8.778 L13.958,14.637 L8.083,14.637 L8.083,19.074 L13.958,19.074 L13.958,24.889 L18.336,24.889 L18.307,19.074 L24.231,19.074 L24.214,14.591 Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+
+              <tr class="_2">
+                <td>
+                  12:00
+                </td>
+                <td>
+                  <a
+                    href="https://www.kinopoisk.ru/film/1122114/"
+                    target="_blank"
+                    title="Перейти на Кинопоиск.ру"
+                    >Собачья жизнь 2
+                  </a>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="1.164cm"
+                    height="1.164cm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="rgb(255, 255, 255)"
+                      d="M16.505,32.994 C7.393,32.994 0.005,25.606 0.005,16.494 C0.005,7.381 7.393,-0.006 16.505,-0.006 C25.618,-0.006 33.005,7.381 33.005,16.494 C33.005,25.606 25.618,32.994 16.505,32.994 ZM24.214,14.591 L18.356,14.631 L18.356,8.796 L13.958,8.778 L13.958,14.637 L8.083,14.637 L8.083,19.074 L13.958,19.074 L13.958,24.889 L18.336,24.889 L18.307,19.074 L24.231,19.074 L24.214,14.591 Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr class="_3">
+                <td>
+                  14:00
+                </td>
+                <td>
+                  <a
+                    href="https://www.kinopoisk.ru/film/846824/"
+                    target="_blank"
+                    title="Перейти на Кинопоиск.ру"
+                    >История игрушек 4
+                  </a>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="1.164cm"
+                    height="1.164cm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="rgb(255, 255, 255)"
+                      d="M16.505,32.994 C7.393,32.994 0.005,25.606 0.005,16.494 C0.005,7.381 7.393,-0.006 16.505,-0.006 C25.618,-0.006 33.005,7.381 33.005,16.494 C33.005,25.606 25.618,32.994 16.505,32.994 ZM24.214,14.591 L18.356,14.631 L18.356,8.796 L13.958,8.778 L13.958,14.637 L8.083,14.637 L8.083,19.074 L13.958,19.074 L13.958,24.889 L18.336,24.889 L18.307,19.074 L24.231,19.074 L24.214,14.591 Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr class="_4">
+                <td>
+                  16:00
+                </td>
+                <td>
+                  <a
+                    href="https://www.kinopoisk.ru/film/693730/"
+                    target="_blank"
+                    title="Перейти на Кинопоиск.ру"
+                    >Люди в чёрном: Интернэшнл</a
+                  >
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="1.164cm"
+                    height="1.164cm"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="rgb(255, 255, 255)"
+                      d="M16.505,32.994 C7.393,32.994 0.005,25.606 0.005,16.494 C0.005,7.381 7.393,-0.006 16.505,-0.006 C25.618,-0.006 33.005,7.381 33.005,16.494 C33.005,25.606 25.618,32.994 16.505,32.994 ZM24.214,14.591 L18.356,14.631 L18.356,8.796 L13.958,8.778 L13.958,14.637 L8.083,14.637 L8.083,19.074 L13.958,19.074 L13.958,24.889 L18.336,24.889 L18.307,19.074 L24.231,19.074 L24.214,14.591 Z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <div>
+                <tr>
+                  <td colspan="3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid eum facere obcaecati quam rem repellendus veritatis.
+                    Aliquam beatae, delectus dignissimos enim exercitationem
+                    mollitia nisi pariatur quaerat quam, qui quibusdam sunt!
+                  </td>
+                </tr>
+              </div>
+            </tfoot>
+          </table>
+        </div>
+      </div>
     </section>
     <section>
       <div style="background: url(images/b4_bg.jpg); height: 550px;">
