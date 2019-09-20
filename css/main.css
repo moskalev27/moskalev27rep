@@ -25,7 +25,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: #252525;
     font-weight: 700;
-    margin: 0 0 79px;
+    margin: 0 0 78px;
     text-align: center;
 }
 .container{
@@ -43,8 +43,16 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #ffffff;
     background: #a3cc40;
-    padding: 19px 0
+    padding: 19px 0;
+    text-align: center;
 }
+.movie_list__tbody{
+    color: #ffffff;
+    font-size: 22px;
+    }
+    .time{
+        text-align: center;
+    }
 ._1 {
     background-color: rgb(55, 55, 55);
     left: 169px;
@@ -52,6 +60,7 @@ font-family: 'Roboto', sans-serif;
     width: 1030px;
     height: 75px;
     z-index: 97;
+    
   }
   ._2 {
     background-color: rgb(75, 77, 79);
@@ -67,7 +76,7 @@ font-family: 'Roboto', sans-serif;
     top: 1876px;
     width: 1030px;
     height: 75px;
-    z-index: 95;
+   
   }
   ._4 {
     background-color: rgb(75, 77, 79);
@@ -75,9 +84,17 @@ font-family: 'Roboto', sans-serif;
     top: 1951px;
     width: 1030px;
     height: 75px;
-    z-index: 94;
+   
   }
-  
-  
-
-  
+  .movie_list__tbody a{
+      text-decoration: none;
+      color: white;
+  }
+  .container p{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(36, 36, 36);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 38px;
+  }
