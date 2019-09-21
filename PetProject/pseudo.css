@@ -1,0 +1,32 @@
+/* псевдокласс :hover-зависание,
+ :visited- посещ-я
+  link-непосещёння ссылка
+  active-
+*/
+
+
+a:visited{
+    color: green;
+}
+a:link{
+color: red;
+}
+
+
+
+.container{
+    height: 100px;
+    background: black;
+}
+a:hover{
+    color: orange;
+ }
+ 
+
+
+a:hover .container{
+    background: blue;
+    }
+    
+    a:active{
+        color: cyan;}
