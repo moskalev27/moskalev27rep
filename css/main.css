@@ -8,6 +8,8 @@ text-decoration: none;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
+@import url(https://fonts.google.com/specimen/Roboto);
+
 @font-face {
     font-family: "Roboto";
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
@@ -27,6 +29,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin: 0 0 78px;
     text-align: center;
+    
 }
 .container{
     max-width: 1030px;
@@ -44,16 +47,20 @@ font-family: 'Roboto', sans-serif;
     color: #ffffff;
     background: #a3cc40;
     padding: 19px 0;
-    text-align: center;
+    
 }
 .movie_list__tbody{
     color: #ffffff;
     font-size: 22px;
+    vertical-align: top;
     }
-    .time{
+.time{
         text-align: center;
+        padding: 3px 0;
+       
+      
     }
-._1 {
+.tr_1 {
     background-color: rgb(55, 55, 55);
     left: 169px;
     top: 1726px;
@@ -61,8 +68,9 @@ font-family: 'Roboto', sans-serif;
     height: 75px;
     z-index: 97;
     
+    
   }
-  ._2 {
+  .tr_2 {
     background-color: rgb(75, 77, 79);
     left: 169px;
     top: 1801px;
@@ -70,7 +78,7 @@ font-family: 'Roboto', sans-serif;
     height: 75px;
     z-index: 96;
   }
-  ._3 {
+  .tr_3 {
     background-color: rgb(55, 55, 55);
     left: 170px;
     top: 1876px;
@@ -78,7 +86,7 @@ font-family: 'Roboto', sans-serif;
     height: 75px;
    
   }
-  ._4 {
+  .tr_4 {
     background-color: rgb(75, 77, 79);
     left: 170px;
     top: 1951px;
@@ -97,4 +105,51 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.2;
         text-align: center;
         margin-top: 38px;
+  }
+  .column-two{
+text-align: left;
+
+  }
+  .column-three{
+    text-align: left;
+    width: 335px;
+  }
+  .movie-name{
+    text-align: left;
+    width: 335px;
+    padding: 3px 0;
+  }
+  .genre{
+    text-align: left;
+    width: 335px;
+    padding: 3px 0;
+  }
+  .movie_list__tbody svg{
+    text-align: center;
+    margin: 0 12px;
+
+  }
+  .movie_list__tbody > :nth-child(3n+3){
+      background-color: #6c6c6c; 
+  }
+  .movie_list__table a{
+      text-decoration: none;
+      color: #ffffff
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    display: inline-block;
+  }
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    display: inline-block;
   }
