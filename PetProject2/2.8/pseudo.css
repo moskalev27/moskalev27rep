@@ -1,0 +1,78 @@
+/* псевдокласс :hover-зависание,
+ :visited- посещ-я
+  link-непосещёння ссылка
+  active-
+*/
+/*
+a:visited{
+    color: green;
+}
+a:link{
+color: red;
+}
+
+.container{
+    height: 100px;
+    background:yellowgreen;
+}
+a:hover{
+    color: orange;
+ }
+a:active {
+    
+    color: cyan;
+}
+a:hover + div .container{
+    background: blue;
+    }*/
+    /*
+    p{
+        border: 1px solid blue;
+        
+    }
+  .difficult:hover{
+        background: red;
+        height: 100px;
+    }*/
+    /*
+    :first-of-type применяется только к тегам 
+    не к классам
+   
+    }*/
+    /*
+    .container p:first-of-type {
+    background: blue;    
+    }
+.container .art:first-child{
+    background: red;
+}
+.container :not(p){
+    text-transform: uppercase;
+}
+
+.container{
+    font-size: 10px;
+}
+.super-container{
+    color: red;
+}
+.container h2{
+    font-size: inherit;
+}*/
+
+/* Вес селектора
+Селектор тега, псевдокласс=1
+Селектор класса=10
+Селектор id=100*/
+
+
+
+.container p:first-child{
+    background: blue !important ;
+}
+/*21 балл*/
+.container .art:first-child {
+    background: red;
+}
+
+
