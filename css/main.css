@@ -684,6 +684,10 @@ form {
   border-bottom: 1px solid transparent;
   }
 /*Общие стили^*/
+.main-container{
+  max-width: 1360px;
+  margin: 0 auto;
+}
 .block-1 {
   background: url(../images/top_bg.jpg) no-repeat center;
   background-size: 100%;
@@ -776,6 +780,7 @@ form {
 }
 .advan-container__image-wrap {
   height: 211px;
+  
 }
 .advan-container__image-wrap {
   position: relative;
@@ -1003,9 +1008,7 @@ form {
 
 /*background: url(images/top_bg.jpg) no-repeat center;
 background-size: 100%;*/
-.gift-img {
-  position: relative;
-}
+
 .block-3 {
   background: url(../images/b4_bg.jpg) no-repeat center;
   height: 760px;
@@ -1025,7 +1028,11 @@ background-size: 100%;*/
   top: -71px;
   left: -23px;
 }
-.block-3__img {
+.gift-img {
+  position: relative;  
+
+}
+.block-3__img img{
   position: absolute;
   left: 161px;
   top: -27px;
