@@ -772,7 +772,7 @@ form {
 }
 
 .advan-container__col1 {
-  float: left;
+  
   width: 33.33%;
 }
 .advan-container__image-wrap img:hover {
@@ -837,10 +837,7 @@ form {
   font-size: 14.01px;
   font-weight: 300;
 }
-.advan-container__row {
-  overflow: hidden;
-  margin-bottom: 32px;
-}
+
 .advan-info {
   width: 517px;
   height: 267px;
@@ -868,6 +865,11 @@ form {
 }
 .advantages {
   margin-bottom: 121px;
+}
+.advan-container__row {
+  overflow: hidden;
+  margin-bottom: 32px;
+  display: flex;
 }
 .movie_list {
   margin-bottom: 110px;
@@ -1081,7 +1083,7 @@ background-size: 100%;*/
 }
 .block-4 {
   max-width: 970px;
-  margin: 0px auto 81px;
+  margin: 0px auto 83px;
 }
 .block-4__text h2 {
   font-size: 50px;
@@ -1094,10 +1096,7 @@ background-size: 100%;*/
   margin-bottom: 57px;
 }
 .block-4__movies_wrap {
-  margin: 0 -18px;
-}
-.block-4__movies {
-  padding: 18px 18px 23px 20px;
+  margin: 4px -18px;
 }
 .block-4__movies {
   float: left;
@@ -1105,23 +1104,17 @@ background-size: 100%;*/
   position: relative;
 }
 .block-4__movies_description {
-  position: absolute;
-  left: 20px;
-  right: 0;
-  height: 100%;
-  bottom: -90%;
   background: rgba(144, 210, 61, 0.8);
   border-radius: 14px;
   width: 296px;
-  height: 296px;
   padding: 23px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   transition: 0.2s;
 }
-.block-4__movies:hover .block-4__movies_description {
-  bottom: 23px;
+.block-4__movies-item:hover .block-4__movies_description {
+  bottom: 0px;
 }
 
 .block-4__movies_wrap {
@@ -1150,6 +1143,25 @@ background-size: 100%;*/
 .block-4__movies_description svg {
   margin: 0px -18px -18px 7px;
 }
+/*Перевод на флексы*/
+.block-4__movies-flex{
+  display: flex;
+
+}
+.block-4__movies-inner{
+  position: relative;
+  overflow: hidden;
+}
+.block-4__movies-item{
+padding: 19px;
+}
+.block-4__movies_description{
+position: absolute;
+left: 0;
+right: 0;
+height: 100%;
+bottom: -100%;
+}
 
 .fut-bottom {
   background: #90d23d;
@@ -1164,8 +1176,7 @@ background-size: 100%;*/
   font-size: 18px;
   font-weight: 300;
 }
-.fut-bottom__svg-wrap.{
-}
+
 .fut-bottom__svg {
   margin-top: 60px;
   display: inline-block;
