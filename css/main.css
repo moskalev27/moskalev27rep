@@ -1008,9 +1008,6 @@ form {
   display: inline-block;
 }
 
-/*background: url(images/top_bg.jpg) no-repeat center;
-background-size: 100%;*/
-
 .block-3 {
   background: url(../images/b4_bg.jpg) no-repeat center;
   height: 760px;
@@ -1083,7 +1080,7 @@ background-size: 100%;*/
 }
 .block-4 {
   max-width: 970px;
-  margin: 0px auto 83px;
+  margin: 0px auto 62px;
 }
 .block-4__text h2 {
   font-size: 50px;
@@ -1093,14 +1090,11 @@ background-size: 100%;*/
 .block-4__text p {
   font-size: 14px;
   font-weight: 300;
-  margin-bottom: 57px;
-}
-.block-4__movies_wrap {
-  margin: 4px -18px;
+  margin-bottom: 79px;
 }
 .block-4__movies {
   float: left;
-  width: 33.33%;
+ 
   position: relative;
 }
 .block-4__movies_description {
@@ -1143,9 +1137,13 @@ background-size: 100%;*/
 .block-4__movies_description svg {
   margin: 0px -18px -18px 7px;
 }
-/*Перевод на флексы*/
-.block-4__movies-flex{
-  display: flex;
+/*Перевод на гриды*/
+.block-4__movies-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 25px;
+  
 
 }
 .block-4__movies-inner{
@@ -1153,7 +1151,7 @@ background-size: 100%;*/
   overflow: hidden;
 }
 .block-4__movies-item{
-padding: 19px;
+
 }
 .block-4__movies_description{
 position: absolute;
