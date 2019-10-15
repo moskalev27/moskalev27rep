@@ -1,0 +1,32 @@
+.container{
+width: 700px;
+margin: 100px auto;
+}
+.block-1{
+    display: flex;  
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items{
+    border: 1px solid;
+    background: greenyellow;   
+    width: 150px;
+    box-sizing: border-box;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.rows{
+    border: 1px solid;
+ display: flex;
+ height: 100%;
+}
+.row1{
+    background: yellow;
+}
+.row2{
+    background: grey;
+}
+.row3{
+    background: blue;
+}
