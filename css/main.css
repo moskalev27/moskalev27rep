@@ -622,7 +622,7 @@ h3 {
 }
 
 p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 300;
   line-height: 1.22;
 }
@@ -634,7 +634,6 @@ a {
 body,
 html {
   font-family: "Roboto";
-  
 }
 
 html {
@@ -738,7 +737,7 @@ button {
 .main-container {
   max-width: 68rem;
   margin: 0 auto;
-  padding:;
+  padding: ;
 }
 
 .block-1 {
@@ -770,16 +769,16 @@ button {
   left: 8rem;
   top: 2.6rem;
 }
-.main-logo img{
+.main-logo img {
   width: 9.35rem;
 }
 .main-nav {
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }
 
 .main-nav__list {
   text-align: right;
-  margin: .5rem 0px 0px 0px;
+  margin: 0.5rem 0px 0px 0px;
   text-transform: uppercase;
 }
 
@@ -792,12 +791,12 @@ button {
 .main-nav__list a {
   color: #fff;
   font-weight: 100;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .main-nav__list a:hover {
   color: #90d23d;
-  border-bottom: .1rem solid white;
+  border-bottom: 0.1rem solid white;
   cursor: crosshair;
 }
 
@@ -813,7 +812,7 @@ button {
   font-size: 4rem;
   color: #ffffff;
   letter-spacing: 0.3px;
-  margin-bottom: .55rem;
+  margin-bottom: 0.55rem;
   margin-left: 0.3rem;
 }
 
@@ -831,7 +830,7 @@ button {
   height: 10rem;
   transform: rotate(-5deg);
   background: #fff;
-  bottom: -5.75rem;
+  bottom: -6.2rem;
   left: 0;
 }
 
@@ -886,7 +885,7 @@ button {
 }
 
 .advan-container__img3 {
-  margin: 1.55rem 0 0 4,8rem;
+  margin: 1.55rem 0 0 4, 8rem;
 }
 
 .advan-container__text1 h3 {
@@ -922,14 +921,14 @@ button {
 }
 
 .advan-info {
-  width: 25.85rem;
-  height: 13.35rem;
+  width: 26rem;
+  height: 13.4rem;
   padding: 2rem 1.4rem;
   background: #fff;
   box-shadow: 0px 1px 2px 0px rgba(35, 31, 32, 0.65);
   position: absolute;
-  top: -7.2rem;
-  right: -0.01rem;
+  top: -6.8rem;
+  right: -0.3rem;
   z-index: 1;
 }
 
@@ -943,15 +942,15 @@ button {
   font-weight: 700;
   font-size: 2.5rem;
   margin-bottom: 6.15rem;
-  margin-left: .1rem;
+  margin-left: 0.1rem;
 }
 
 .advan-pluses {
-  padding-top: 3.2rem;
+  padding-top: 3.7rem;
 }
 
 .advantages {
-  margin-bottom: 6.05rem;
+  margin-bottom: 6.5rem;
   width: 68rem;
 }
 
@@ -961,7 +960,7 @@ button {
 }
 
 .movie_list {
-  margin-bottom: 5,5rem;
+  margin-bottom: 5, 5rem;
   width: 68rem;
   margin: 0 auto;
 }
@@ -970,7 +969,7 @@ button {
   font-size: 2.5rem;
   color: #252525;
   font-weight: 700;
-  margin: 0 0 4.1rem;
+  margin: 0 0 4.2rem;
   text-align: center;
 }
 
@@ -982,7 +981,7 @@ button {
 .movie_list__table {
   width: 100%;
   border-collapse: collapse;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -991,7 +990,7 @@ button {
   font-weight: 700;
   color: #ffffff;
   background: #a3cc40;
-  padding: .95rem 0;
+  padding: 0.95rem 0;
 }
 
 .movie_list__table tr:first-of-type {
@@ -1001,14 +1000,14 @@ button {
 .advan-info__head {
   font-weight: 700;
   font-size: 2rem;
-  margin: -0.2rem .1rem 1.65rem 0px;
+  margin: -0.2rem 0rem 1.65rem 0.3rem;
 }
 
 .advan-info__text {
   font-weight: 300;
   font-size: 0.7rem;
   line-height: 1.22;
-  margin: 0px 1.25rem 0px .15rem;
+  margin: 0px 1.25rem 0px 0.15rem;
 }
 
 .movie_list__tbody {
@@ -1019,7 +1018,7 @@ button {
 
 .time {
   text-align: center;
-  padding: .15rem 0;
+  padding: 0.15rem 0;
 }
 
 .tr_1 {
@@ -1043,7 +1042,7 @@ button {
   left: 8.5rem;
   top: 93.8rem;
   width: 51.5rem;
-  height: 3.75rem;
+  height: 3.9rem;
 }
 
 .tr_4 {
@@ -1060,14 +1059,14 @@ button {
 }
 
 .container p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-family: "Roboto";
   color: rgb(36, 36, 36);
   line-height: 1.2;
   text-align: center;
   margin-top: 1.9rem;
   font-weight: 300;
-  margin-bottom: 5.55rem;
+  margin-bottom: 5.8rem;
 }
 
 .column-two {
@@ -1173,7 +1172,7 @@ button {
   font-size: 0.7rem;
   font-weight: 300;
   margin: 2.9rem 0 0 19rem;
-  line-height: .75rem;
+  line-height: 0.75rem;
 }
 
 .gift-button {
@@ -1207,8 +1206,8 @@ button {
 }
 
 .block-4 {
-  width: 51.5rem;
-  margin: 0px auto 3.1rem;
+  width: 49rem;
+  margin: 0px auto 3.25rem;
 }
 
 .block-4__text h2 {
@@ -1218,9 +1217,9 @@ button {
 }
 
 .block-4__text p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 300;
-  margin-bottom: 3.95rem;
+  margin-bottom: 4.36rem;
 }
 
 .block-4__movies {
@@ -1230,7 +1229,7 @@ button {
 
 .block-4__movies_description {
   background: rgba(144, 210, 61, 0.8);
-  border-radius: .7rem;
+  border-radius: 0.7rem;
 
   padding: 1.15rem;
   display: flex;
@@ -1238,8 +1237,8 @@ button {
   box-sizing: border-box;
   transition: 0.2s;
 }
-.block-4__poster img{
-  height: 14.3rem;
+.block-4__poster img {
+  height: 15rem;
 }
 .block-4__movies-item:hover .block-4__movies_description {
   bottom: 0px;
@@ -1258,11 +1257,11 @@ button {
 
 .block-4__movies_hr {
   width: 4rem;
-  height: .4rem;
+  height: 0.4rem;
   background: #fff;
   border: 0;
   box-shadow: none;
-  margin: 0 0 .7rem;
+  margin: 0 0 0.7rem;
 }
 
 .block-4__movies_plain-text {
@@ -1281,7 +1280,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2rem;
-  grid-row-gap: 1.25rem;
+  grid-row-gap: 1rem;
 }
 
 .block-4__movies-inner {
@@ -1307,9 +1306,9 @@ button {
   height: auto;
   margin-top: -0.15rem;
   text-align: center;
-  padding-bottom: 14px;
+  padding-bottom: 2.1rem
 }
-.foot-container{
+.foot-container {
   width: 68rem;
 }
 .foot-bottom p {
@@ -1320,24 +1319,23 @@ button {
 }
 
 .foot-bottom__svg {
-  
+  padding-top: 3rem;
+  margin-bottom: 1.2rem;
 }
-
-.foot-bottom__svg svg {
+.foot-bottom__svg svg{
+  margin: 0 0.15rem;
 }
-.video{
+.video {
   position: relative;
   padding-top: 56.25%;
   width: 50.65rem;
   margin: auto;
 }
-.video iframe{
+.video iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.foot-bottom__svg_item{
-  display: inline;
-}
+
