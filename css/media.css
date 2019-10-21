@@ -25,7 +25,7 @@
   .table-wrap {
     overflow: auto;
   }
-  .movie_list__table{
+  .movie_list__table {
     width: 800px;
   }
 }
@@ -34,7 +34,7 @@
   .main-nav__burger::before,
   .main-nav__burger::after {
     content: "";
-    left: 0;
+    left: 70px;
     width: 100%;
     background: white;
     height: 1px;
@@ -81,21 +81,17 @@
   .movie_list__table {
     width: 1;
   }
-  .advan-info__text p{
+  .advan-info__text p {
     font-size: 17px;
   }
   .advan-container__row {
     flex-wrap: wrap;
     justify-content: center;
-}
-.advan-container__col1{
-  flex-basis: 50%;
-}
-.block-4__movies-grid{
-  grid-template-columns: 1fr 1fr;
-}
-@media screen and (max-width: 320px) {
-  html {
-    font-size: 20px;
+  }
+  .advan-container__col1 {
+    flex-basis: 50%;
+  }
+  .block-4__movies-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
