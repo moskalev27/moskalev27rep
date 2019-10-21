@@ -737,7 +737,6 @@ button {
 .main-container {
   max-width: 68rem;
   margin: 0 auto;
-  padding: ;
 }
 
 .block-1 {
@@ -890,6 +889,7 @@ button {
 
 .advan-container__text1 h3 {
   margin-left: 0.4rem;
+  text-align: center;
 }
 
 .advan-container__text2 h3 {
@@ -898,7 +898,7 @@ button {
 }
 
 .advan-container__text3 h3 {
-  text-align: right;
+  text-align: center;
   margin-right: 0.5rem;
 }
 

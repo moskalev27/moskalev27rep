@@ -1,4 +1,101 @@
-@media screen and (max-width:1200px)
-{
-
+@media screen and (max-width: 1200px) {
+  .main-nav__list a,
+  .advan-info__text p,
+  .advan-container__text1 p,
+  .advan-container__text2 p,
+  .advan-container__text3 p,
+  .container p,
+  .block-3__text ol,
+  .block-4__text p {
+    font-size: 0.9rem;
+  }
+  .advan-info {
+    box-sizing: content-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    width: 50rem;
+  }
+  .table-wrap {
+    overflow: auto;
+  }
+  .movie_list__table{
+    width: 800px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-nav__burger span,
+  .main-nav__burger::before,
+  .main-nav__burger::after {
+    content: "";
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 1px;
+    display: block;
+    position: absolute;
+  }
+  .main-nav__burger {
+    position: relative;
+    left: 80px;
+    width: 20px;
+    height: 19px;
+    cursor: pointer;
+  }
+  .main-nav__burger span {
+    top: 9px;
+  }
+  .main-nav__burger::before {
+    top: 0;
+  }
+  .main-nav__burger::after {
+    bottom: 0;
+  }
+  .main-nav__wrap {
+    /*display: none;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 3rem 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  }
+  .main-nav__list li {
+    display: block;
+    margin: 1rem;
+  }
+  .main-nav__list a {
+    font-size: 1.5rem;
+  }
+  .advan-info {
+    position: static;
+    margin: 0 auto;
+  }
+  .movie_list__table {
+    width: 1;
+  }
+  .advan-info__text p{
+    font-size: 17px;
+  }
+  .advan-container__row {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.advan-container__col1{
+  flex-basis: 50%;
+}
+.block-4__movies-grid{
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 20px;
+  }
 }
