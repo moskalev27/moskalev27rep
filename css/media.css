@@ -34,8 +34,8 @@
   .main-nav__burger::before,
   .main-nav__burger::after {
     content: "";
-    left: 70px;
-    width: 100%;
+    right: -41rem;
+    width: 40px;
     background: white;
     height: 1px;
     display: block;
@@ -58,7 +58,7 @@
     bottom: 0;
   }
   .main-nav__wrap {
-    /*display: none;*/
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
@@ -77,21 +77,304 @@
   .advan-info {
     position: static;
     margin: 0 auto;
-  }
-  .movie_list__table {
-    width: 1;
+    width: 47rem;
+    height: 16rem;
   }
   .advan-info__text p {
-    font-size: 17px;
+    font-size: 1.5rem;
   }
   .advan-container__row {
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
   }
   .advan-container__col1 {
     flex-basis: 50%;
   }
   .block-4__movies-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 3rem;
+  }
+  .advan-container__col1 p {
+    text-align: center;
+    margin: 0 auto 3rem;
+  }
+  .advan-container__col1 {
+    width: 70%;
+  }
+  .advan-container__text1 p,
+  .advan-container__text2 p,
+  .advan-container__text3 p,
+  .container p,
+  .block-3__text ol,
+  .block-4__text p {
+    font-size: 1.5rem;
+    margin-bottom: 8.8rem;
+  }
+  .block-3__text ol {
+    font-size: 1.4rem;
+    line-height: 1.3em;
+    margin: 2.9rem 0 0 4rem;
+  }
+  .block-3 {
+    height: 60rem;
+    padding-top: 10.05rem;
+  }
+  .movie_list__tbody {
+    font-size: 1.9rem;
+  }
+  .movie_list__table {
+    width: 950px;
+  }
+  .advan-container__col1 h3 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .advan-container__image-wrap {
+    height: 21.55rem;
+  }
+  .main-logo img {
+    width: 16.35rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .advan-info__head {
+    font-size: 3rem;
+  }
+  .movie_list__header {
+    font-size: 3.5rem;
+  }
+  .block-3__text h2 {
+    font-size: 3.5rem;
+  }
+  .gift-button {
+    width: 15.7rem;
+    height: 5.05rem;
+    font-size: 1.8rem;
+  }
+  .block-3__img img {
+    left: 6.05rem;
+    top: -5.35rem;
+    height: 22rem;
+  }
+  .advan-container__logo h2 {
+    font-size: 3.5rem;
+  }
+  .movie_list__table th {
+    font-size: 2rem;
+  }
+  .block-4__poster img {
+    height: 30rem;
+  }
+  .block-4__movies_main-text {
+    font-size: 3.15rem;
+  }
+  .block-4__movies_plain-text {
+    font-size: 2.5rem;
+  }
+  .foot-bottom p {
+    font-size: 1.9rem;
+  }
+  svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .block-4__movies_description svg {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  .block-4__movies_hr {
+    width: 27rem;
+  }
+
+  form {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  input,
+  textarea,
+  select {
+    font-size: 2.2rem;
+  }
+  form h3 {
+    font-size: 2.75rem;
+  }
+  input[type="radio"] + label::before,
+  input[type="checkbox"] + label::before {
+    width: 30px;
+    height: 30px;
+  }
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    font-size: 29px;
+    padding-left: 36px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-logo img {
+    width: 32.35rem;
+  }
+  .main-nav__burger span,
+  .main-nav__burger::before,
+  .main-nav__burger::after {
+    content: "";
+    right: -41rem;
+    width: 80px;
+  }
+  .main-nav__list a {
+    font-size: 3.5rem;
+  }
+  .main-nav__list li {
+    margin: 3rem;
+  }
+  .block-1 {
+    height: 65rem;
+  }
+  .descriptoin__headline h1 {
+    font-size: 8rem;
+    margin-bottom: 100px;
+  }
+  .descriptoin__text h2 {
+    font-size: 5.5rem;
+  }
+  .main-nav {
+    margin-bottom: 2.1rem;
+  }
+  .advan-info__head {
+    font-size: 6rem;
+    text-align: center;
+  }
+  .advan-info {
+    height: 40rem;
+  }
+  .advan-info__text p {
+    font-size: 3.1rem;
+    text-align: center;
+  }
+  .advan-info {
+    height: 60rem;
+  }
+  .header-wrap {
+    margin-bottom: 1rem;
+  }
+  .header-wrap {
+    margin-bottom: 15rem;
+  }
+  .advan-container__logo h2 {
+    font-size: 7.5rem;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .advan-container__image-wrap {
+    height: 32.55rem;
+  }
+  .advan-container__col1 h3 {
+    font-size: 4.5rem;
+  }
+  .container__text1 p,
+  .advan-container__text2 p,
+  .advan-container__text3 p,
+  .container p,
+  .block-3__text ol,
+  .block-4__text p {
+    font-size: 3.5rem;
+  }
+  .movie_list__header {
+    font-size: 6rem;
+  }
+  .movie_list__table {
+    width: 90rem;
+    height: 50rem;
+  }
+  .movie_list__table th {
+    font-size: 5rem;
+  }
+  .movie_list__tbody {
+    font-size: 3.8rem;
+  }
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 3.35rem solid transparent;
+    border-right: 3.35rem solid transparent;
+    border-bottom: 3.35rem solid #fff;
+    display: inline-block;
+  }
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 3.35rem solid transparent;
+    border-right: 3.35rem solid transparent;
+    border-top: 3.35rem solid #fff;
+    display: inline-block;
+  }
+  .block-3__img img {
+    position: static;
+    margin-left: 16rem;
+    height: 40rem;
+  }
+  .block-3__img {
+    margin: 0 auto;
+  }
+  .block-3__text h2 {
+    font-size: 5.5rem;
+    text-align: center;
+  }
+  .block-3__text ol {
+    font-size: 3.2rem;
+    line-height: 1.3em;
+    margin: 2.9rem 0 0 0rem;
+  }
+  .block-3 {
+    height: 165rem;
+  }
+  .gift-button {
+    width: 35.7rem;
+    height: 9.05rem;
+    font-size: 3.8rem;
+  }
+  .block-4__poster img {
+    height: 49rem;
+  }
+  .block-4__movies_main-text {
+    font-size: 6rem;
+  }
+  .block-4__movies_hr {
+    width: 40rem;
+    height: 1.4rem;
+  }
+  .block-4__movies_plain-text {
+    font-size: 3.9rem;
+  }
+  .foot-bottom p {
+    font-size: 3.9rem;
+  }
+  svg {
+    width: 7.5rem;
+    height: 6.5rem;
+  }
+  form h3 {
+    font-size: 3.75rem;
+  }
+  form {
+    font-size: 4rem;
+  }
+  input,
+  textarea,
+  select {
+    font-size: 2.8rem;
+  }
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    font-size: 54px;
+    padding-left: 45px;
+  }
+  .block-4__movies_description svg {
+    width: 10.5rem;
+    height: 10.5rem;
   }
 }
