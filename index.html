@@ -15,6 +15,8 @@
   <link rel="stylesheet" type="text/css" href="build/style.css" />
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/media.css" type="text/css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -325,7 +327,7 @@
               </p>
             </div>
 
-            <div class="block-4__movies_wrap block-4__movies-grid">
+            <div class="block-4__movies_wrap block-4__movies-grid owl-carousel">
               <div class="block-4__movies block-4__movies-item">
                 <div class="block-4__movies-inner">
                   <div class="block-4__poster">
@@ -1500,7 +1502,7 @@
         <form action="/order.php" id="bue">
           <div>
             <div>
-              <h3 >Забронировать место</h3>
+              <h3>Забронировать место</h3>
             </div>
             <label for="cl_name">Укажите ваше имя</label>
             <input id="cl_name" name="client_name" placeholder="Введите ваше имя" required aria-required="true" />
@@ -1574,21 +1576,27 @@
         </form>
       </div>
     </footer>
-    <!--<script>
-      function add(a, b) {
-        alert(a + b)
-      }
-      function add(a, b) {
-        alert(a)
-      }
-      function name(params) {
-        
-      
-        add(1, 2)
-        add(8,12)
-      }
-      </script> -->
   </div>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+  </script>
 </body>
 
 </html>
