@@ -1230,26 +1230,18 @@ button {
 .block-4__movies_description {
   background: rgba(144, 210, 61, 0.8);
   border-radius: 0.7rem;
-
-  padding: 1.15rem;
+  padding: 0.45rem;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   transition: 0.2s;
 }
-.block-4__poster img {
-  height: 15rem;
-}
 .block-4__movies-item:hover .block-4__movies_description {
   bottom: 0px;
 }
 
-.block-4__movies_wrap {
-  overflow: hidden;
-}
-
 .block-4__movies_main-text {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 900;
   color: #ffffff;
   margin: 0 0 0.5rem;

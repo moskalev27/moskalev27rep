@@ -51,3 +51,6 @@
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
+.owl-theme{
+  font-size: 3rem;
+}

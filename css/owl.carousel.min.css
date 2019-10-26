@@ -182,3 +182,15 @@
   height: 100%;
   width: 100%;
 }
+.owl-nav{
+  position: relative;
+  top: -7.5rem;
+}
+.owl-prev{
+  position: absolute;
+  left: -2rem;
+ }
+.owl-next{
+  position: absolute;
+  right: -2rem;
+}

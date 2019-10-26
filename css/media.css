@@ -377,4 +377,7 @@
     width: 10.5rem;
     height: 10.5rem;
   }
+  .block-4__text h2 {
+    font-size: 7.5rem;
+  }
 }
