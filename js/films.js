@@ -1,57 +1,53 @@
-const genre_1 = 'фантастика'
-const genre_2 = 'боевик'
-const genre_3 = 'приключения'
-const genre_4 = 'фэнтези'
-const genre_5 = 'драма'
-const genre_6 = 'комедия'
-const genre_7 = 'мультфильм'	
+const films = [
+  ["10:00", "Человек-паук", 0],
+  ["12:00", "Собачья жизнь 2", 2],
+  ["14:00", "История игрушек 4", 6],
+  ["16:00", "Люди в черном: Интернэшнл", 3]
+];
 
-let start_film_1 = '10:00'
-let start_film_2 = '12:00'
-let start_film_3 = '14:00'
-let start_film_4 = '16:00'
+const genre = [
+  "фантастика",
+  "боевик",
+  "приключения",
+  "фэнтези",
+  "драма",
+  "комедия",
+  "мультфильм"
+];
+const elementTable = document.getElementById('movie-table');
 
-let film_name_1 = 'Человек-паук'
-let film_name_2 = 'Собачья жизнь 2'
-let film_name_3 = 'История игрушек 4'
-let film_name_4 = 'Люди в черном: Интернэшнл'
+for (let i = 0; i < films.length; i++) {
 
-genre_film_1 = genre_1 + ", " + genre_2 + ", " + genre_3
-genre_film_2 = genre_4 + ", " + genre_5 + ", " + genre_6
-genre_film_3 = genre_7 + ", " + genre_4 + ", " + genre_6
-genre_film_4 = genre_1 + ", " + genre_2 + ", " + genre_6
+  let genreId = films [i][2];
+
+let row = `
+<tr class="film_row">
+  <td id = "startOf_film_1" class="time">
+    ${films[i][0]}
+  </td>
+  <td  class="movie-name">
+    <a id = "nameOf_film_1" href="https://www.kinopoisk.ru/film/838/" target="_blank" title="Перейти на Кинопоиск.ру">
+      ${films[i][1]}
+    </a>
+  </td>
+  <td id = "genreOf_film_1" class="genre">
+    ${genre[genreId]}
+  </td>
+  <td>
+    <a href="#" title="Добавить в корзину">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="2.5rem" height="2.5rem" viewBox="0 0 50 50">
+        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+          d="M16.505,32.994 C7.393,32.994 0.005,25.606 0.005,16.494 C0.005,7.381 7.393,-0.006 16.505,-0.006 C25.618,-0.006 33.005,7.381 33.005,16.494 C33.005,25.606 25.618,32.994 16.505,32.994 ZM24.214,14.591 L18.356,14.631 L18.356,8.796 L13.958,8.778 L13.958,14.637 L8.083,14.637 L8.083,19.074 L13.958,19.074 L13.958,24.889 L18.336,24.889 L18.307,19.074 L24.231,19.074 L24.214,14.591 Z" />
+      </svg>
+    </a>
+  </td>
+</tr>
+`;
+elementTable.innerHTML += row
 
 
-let element_startOf_film_1 = document.getElementById('startOf_film_1')
-let element_nameOf_film_1 = document.getElementById('nameOf_film_1')
-let element_genreOf_film_1 = document.getElementById('genreOf_film_1')
 
-let element_startOf_film_2 = document.getElementById('startOf_film_2')
-let element_nameOf_film_2 = document.getElementById('nameOf_film_2')
-let element_genreOf_film_2 = document.getElementById('genreOf_film_2')
 
-let element_startOf_film_3 = document.getElementById('startOf_film_3')
-let element_nameOf_film_3 = document.getElementById('nameOf_film_3')
-let element_genreOf_film_3 = document.getElementById('genreOf_film_3')
-
-let element_startOf_film_4 = document.getElementById('startOf_film_4')
-let element_nameOf_film_4 = document.getElementById('nameOf_film_4')
-let element_genreOf_film_4 = document.getElementById('genreOf_film_4')
-
-element_startOf_film_1.innerHTML = start_film_1
-element_nameOf_film_1.innerHTML = film_name_1
-element_genreOf_film_1.innerHTML = genre_film_1
-
-element_startOf_film_2.innerHTML = start_film_2
-element_nameOf_film_2.innerHTML = film_name_2
-element_genreOf_film_2.innerHTML = genre_film_2
-
-element_startOf_film_3.innerHTML = start_film_3
-element_nameOf_film_3.innerHTML = film_name_3
-element_genreOf_film_3.innerHTML = genre_film_3
-
-element_startOf_film_4.innerHTML = start_film_4
-element_nameOf_film_4.innerHTML = film_name_4
-element_genreOf_film_4.innerHTML = genre_film_4
-
-// console.log()
+  console.log(i);
+}
