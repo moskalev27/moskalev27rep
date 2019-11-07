@@ -29,6 +29,5 @@ let secondNumber = prompt('Введите второе число от 6 до 10
 function task4(firstNumber, firstNumber){
     let goal = firstNumber -0.5 + Math.random() * (secondNumber  - firstNumber + 1 );
    return Math.round(goal);
-
 };
   console.log(task4(firstNumber, firstNumber));
