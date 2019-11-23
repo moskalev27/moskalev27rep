@@ -10,13 +10,14 @@ let text = document.getElementById('enterName');
   
 // Задание 2 и почему то 3 такое же по смыслу
  
-let a = 27;
+let a = 2;
 let b = 27;
-function maxValue (){
-   return Math.max (a, b);
+
+function maxValue (x, y){
+   return Math.max (x, y);
 
 };
-maxValue()
+maxValue(a, b)
 console.log(maxValue(a, b));
 
 // Задание 4
@@ -26,7 +27,7 @@ let secondNumber = prompt('Введите второе число от 6 до 10
 
 
 
-function task4(firstNumber, firstNumber){
+function task4(firstNumber, secondNumber){
     let goal = firstNumber -0.5 + Math.random() * (secondNumber  - firstNumber + 1 );
    return Math.round(goal);
 };

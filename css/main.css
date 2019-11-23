@@ -617,7 +617,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   font-weight: 900;
 }
 
@@ -648,17 +648,17 @@ html {
 }
 
 form {
-  width: 400px;
+  width: 20rem;
 }
 
 input,
 textarea,
 select {
-  font-size: 19px;
+  font-size: 0.95rem;
   color: #6c6c6c;
-  padding: 15px 11px;
+  height: 1.5rem;
   border: 1px solid #bebebe;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   width: 100%;
   outline: 0;
   transition: 0.2s;
@@ -768,9 +768,11 @@ button {
   left: 8rem;
   top: 2.6rem;
 }
+
 .main-logo img {
   width: 9.35rem;
 }
+
 .main-nav {
   margin-bottom: 0.1rem;
 }
@@ -1014,11 +1016,13 @@ button {
   color: #ffffff;
   font-size: 1.1rem;
   vertical-align: top;
+  
 }
 
 .time {
   text-align: center;
   padding: 0.15rem 0;
+  vertical-align: middle;
 }
 
 .film_row {
@@ -1029,7 +1033,23 @@ button {
   height: 3.75rem;
 }
 
-.tr_2 {
+.movie_list__table tr {
+  background-color: rgb(55, 55, 55);
+  left: 8.45rem;
+  top: 90.05rem;
+  width: 51.5rem;
+  height: 3.75rem;
+  color: #ffffff;
+}
+.movie_list__table tr:nth-child(2n+1){
+  background-color: rgb(75, 77, 79);
+}
+
+.movie_list__table tr:nth-child(3n + 3) {
+  background-color: #6c6c6c;
+}
+
+/* .tr_2 {
   background-color: rgb(75, 77, 79);
   left: 8.45rem;
   top: 90.05rem;
@@ -1051,7 +1071,7 @@ button {
   top: 97.55rem;
   width: 51.5rem;
   height: 3.75rem;
-}
+} */
 
 .movie_list__tbody a {
   text-decoration: none;
@@ -1082,26 +1102,30 @@ button {
   text-align: left;
   width: 16.75;
   padding: 0.15rem 0;
+  vertical-align: middle;
 }
 
 .genre {
   text-align: left;
   width: 16.75rem;
   padding: 0.15rem 0;
+  vertical-align: middle;
 }
 
-.movie_list__tbody svg {
+.movie_svg{
+  vertical-align: bottom;
+}
+/* .movie_list__table svg {
   text-align: center;
   margin: 0 0.6rem;
-}
-
-.movie_list__tbody > :nth-child(3n + 3) {
-  background-color: #6c6c6c;
-}
+  background: #000;
+  align-items: center;
+} */
 
 .movie_list__table a {
   text-decoration: none;
   color: #ffffff;
+  
 }
 
 .arrow-down {
@@ -1236,6 +1260,7 @@ button {
   box-sizing: border-box;
   transition: 0.2s;
 }
+
 .block-4__movies-item:hover .block-4__movies_description {
   bottom: 0px;
 }
@@ -1300,9 +1325,11 @@ button {
   text-align: center;
   padding-bottom: 2.1rem;
 }
+
 .foot-container {
   width: 68rem;
 }
+
 .foot-bottom p {
   color: #fff;
   text-align: center;
@@ -1314,15 +1341,18 @@ button {
   padding-top: 3rem;
   margin-bottom: 1.2rem;
 }
+
 .foot-bottom__svg svg {
   margin: 0 0.15rem;
 }
+
 .video {
   position: relative;
   padding-top: 56.25%;
   width: 50.65rem;
   margin: auto;
 }
+
 .video iframe {
   position: absolute;
   top: 0;
@@ -1330,7 +1360,60 @@ button {
   width: 100%;
   height: 100%;
 }
+
 form {
   font-size: 1rem;
   margin: 0 auto;
 }
+
+#modalPresent {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+ padding-top: 5rem;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  
+}
+
+.bue {
+  font-size: 0.95rem;
+  color: #6c6c6c;
+  height: 1.5rem;
+  border: 1px solid #bebebe;
+  border-radius: 0.25rem;
+  width: 21rem;
+    margin: 0 auto;
+  outline: 0;
+  transition: 0.2s;
+  background-color: #fff;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.form_text{
+padding: 1rem 0;
+}
+.gift-buttonModal{
+  background-color: #90d23d;
+  margin: 0 auto;
+  width: 11rem;
+  height: 2.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+}
+#closeModalPresent{
+  position: absolute;
+    right: .7rem;
+    top: .1rem;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
