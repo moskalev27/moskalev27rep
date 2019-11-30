@@ -1,37 +1,37 @@
 let films = [
-  (film1 = {
+  {
     name: "Человек-паук",
     start: "10:00",
     genre: [0, 1, 2],
     hire: true,
     new: false,
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  }),
-  (film2 = {
+  },
+  {
     name: "Собачья жизнь 2",
     start: "12:00",
     genre: [3, 4, 5],
     hire: true,
     new: false,
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  }),
-  (film3 = {
+  },
+  {
     name: "История игрушек 4",
     start: "14:00",
     genre: [6, 3, 5],
     hire: true,
     new: false,
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  }),
-  (film4 = {
+  },
+  {
     name: "Люди в чёрном-Интернэшнл",
     start: "16:00",
     genre: [0, 1, 5],
     hire: true,
     new: false,
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  }),
-  (film5 = {
+  },
+  {
     name: "ОНО",
     start: "18:00",
     genre: [5],
@@ -43,8 +43,8 @@ let films = [
     twitter: "https://twitter.com",
     behance: "https://www.behance.net",
     dribbble: "https://dribbble.com"
-  }),
-  (film6 = {
+  },
+  {
     name: "Сплит",
     start: "20:00",
     genre: [5],
@@ -56,8 +56,8 @@ let films = [
     twitter: "https://twitter.com",
     behance: "https://www.behance.net",
     dribbble: "https://dribbble.com"
-  }),
-  (film7 = {
+  },
+  {
     name: "Выразительный Java Script",
     start: "19:00-21:00",
     genre: [7],
@@ -69,7 +69,7 @@ let films = [
     twitter: "https://vk.com",
     behance: "https://www.vk.net",
     dribbble: "https://vk.com"
-  })
+  }
 ];
 
 const genres = [
@@ -307,6 +307,7 @@ for (let i = 0; i < filmsNew.length; i++) {
                   </div>
                 </div>
               </div>
+              
   `;
   filmsNewHTML.innerHTML += filmHTML;
 }
